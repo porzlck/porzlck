@@ -1,20 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="815" height="210" viewBox="0 0 815 210">
+<svg xmlns="http://www.w3.org/2000/svg" width="815" height="235" viewBox="0 0 815 235">
 
     <style>
         .text {
-            font-family: -apple-system, BlinkMacSystemFont,
-            "Segoe UI", Helvetica, Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
             fill: #24292f;
         }
-
         .muted {
             fill: #57606a;
         }
-
         .empty {
             fill: #ebedf0;
         }
-
         @media (prefers-color-scheme: dark) {
             .text { fill: #c9d1d9; }
             .muted { fill: #8b949e; }
@@ -410,7 +406,10 @@
 <rect x="776" y="104" width="11" height="11" rx="2" ry="2" fill="#9be9a8"><title>2026-09-18: 1 solved</title></rect>
 <rect x="776" y="118" width="11" height="11" rx="2" ry="2" class="empty"><title>2026-09-19: 0 solved</title></rect>
 <rect x="776" y="132" width="11" height="11" rx="2" ry="2" class="empty"><title>2026-09-20: 0 solved</title></rect>
-<text x="48" y="181" class="text" font-size="18">1380 problems solved</text>
-<text x="328" y="181" class="text" font-size="18">1353 in last 365 days</text>
-<text x="608" y="181" class="text" font-size="18">134 day max streak</text>
+<text x="48" y="181" class="text" font-size="22">1380</text><text x="48" y="198" class="muted" font-size="11">problems solved all time</text>
+<text x="308" y="181" class="text" font-size="22">1353</text><text x="308" y="198" class="muted" font-size="11">solved in last 365 days</text>
+<text x="558" y="181" class="text" font-size="22">50</text><text x="558" y="198" class="muted" font-size="11">solved in last 30 days</text>
+<text x="48" y="233" class="text" font-size="18">134 days</text><text x="48" y="249" class="muted" font-size="11">max streak</text>
+<text x="308" y="233" class="text" font-size="18">134 days</text><text x="308" y="249" class="muted" font-size="11">max streak / last year</text>
+<text x="558" y="233" class="text" font-size="18">4 days</text><text x="558" y="249" class="muted" font-size="11">max streak / last month</text>
 </svg>
