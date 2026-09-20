@@ -11,7 +11,5 @@
 ## LeetCode Stats
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/mathmatic?site=cn" width="32%">
   <img src="https://leetcard.jacoblin.cool/mathmatic?site=cn&ext=heatmap" width="32%">
-  <img src="https://leetcard.jacoblin.cool/mathmatic?site=cn&ext=contest" width="32%">
 </p>
