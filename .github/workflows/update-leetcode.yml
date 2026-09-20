@@ -31,17 +31,25 @@ jobs:
         run: |
           python scripts/leetcode_contest.py
 
-      - name: Commit updated chart
+      - name: Generate LeetCode heatmap
+        run: |
+          python scripts/leetcode_heatmap.py
+
+      - name: Commit updated charts
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add assets/lc-contest.svg data/lc-contest.json
+          git add \
+            assets/lc-contest.svg \
+            assets/lc-heatmap.svg \
+            data/lc-contest.json \
+            data/lc-heatmap.json
 
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
           fi
 
-          git commit -m "chore: update LeetCode contest stats"
+          git commit -m "chore: update LeetCode stats"
           git push
