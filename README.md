@@ -1,5 +1,3 @@
-# Hi there 👋
-
 ## Codeforces Stats
 
 <p align="center">
