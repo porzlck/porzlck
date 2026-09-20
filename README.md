@@ -10,4 +10,4 @@
 
 ## LeetCode Stats
 
-<img src="https://leetcard.jacoblin.cool/orzl?site=cn" width="49%">
+<img src="https://leetcard.jacoblin.cool/mathmatic?site=cn" width="49%">
