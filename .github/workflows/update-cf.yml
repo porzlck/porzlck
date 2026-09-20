@@ -1,1 +1,40 @@
+name: Update Codeforces heatmap
 
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "17 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Codeforces heatmap
+        env:
+          CF_HANDLE: porzlck
+          CF_TIMEZONE: Asia/Shanghai
+        run: |
+          python3 scripts/cf_heatmap.py
+
+      - name: Commit updated heatmap
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/cf-heatmap.svg data/cf-stats.json
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git commit -m "chore: update Codeforces heatmap"
+          git push
