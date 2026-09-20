@@ -17,24 +17,34 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate Codeforces heatmap
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install matplotlib
+
+      - name: Generate Codeforces charts
         env:
           CF_HANDLE: porzlck
           CF_TIMEZONE: Asia/Shanghai
         run: |
-          python3 scripts/cf_heatmap.py
+          python scripts/cf_heatmap.py
 
-      - name: Commit updated heatmap
+      - name: Commit updated charts
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add assets/cf-heatmap.svg data/cf-stats.json
+          git add assets/*.svg data/cf-stats.json
 
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
           fi
 
-          git commit -m "chore: update Codeforces heatmap"
+          git commit -m "chore: update Codeforces charts"
           git push
