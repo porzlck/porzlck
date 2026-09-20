@@ -1,19 +1,13 @@
-## Hi there 👋
+# Hi there 👋
 
-<!--
-**porzlck/porzlck** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Codeforces Rating
 
-Here are some ideas to get you started:
+<img src="./assets/cf-rating.svg" width="100%">
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
 ## Codeforces Activity
 
 <img src="./assets/cf-heatmap.svg" width="100%">
+
+## Problem Ratings
+
+<img src="./assets/cf-problem-ratings.svg" width="100%">
