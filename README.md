@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm porzlck 👋
+# Hi, I'm porzlck 
 
 ![Profile Views](https://komarev.com/ghpvc/?username=porzlck&color=blueviolet&style=flat-square)
 ![GitHub followers](https://img.shields.io/github/followers/porzlck?style=flat-square)
@@ -48,10 +48,4 @@
 
 </div>
 
----
 
-<div align="center">
-
-### ⭐ Thanks for visiting!
-
-</div>
