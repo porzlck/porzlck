@@ -2,8 +2,6 @@
 
 # Hi, I'm porzlck 👋
 
-### Competitive Programmer · Developer
-
 ![Profile Views](https://komarev.com/ghpvc/?username=porzlck&color=blueviolet&style=flat-square)
 ![GitHub followers](https://img.shields.io/github/followers/porzlck?style=flat-square)
 ![GitHub stars](https://img.shields.io/github/stars/porzlck?style=flat-square)
