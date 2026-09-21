@@ -15,9 +15,8 @@
 ## 👨‍💻 About Me
 
 - 💻 Interested in **Algorithms & Competitive Programming**
-- 🧠 Codeforces / LeetCode enjoyer
 - 🚀 Always learning and building
-- 📚 Currently improving problem solving & software engineering skills
+- 📚 Currently learning **Machine Learning & Deep Learning**
 
 ---
 
