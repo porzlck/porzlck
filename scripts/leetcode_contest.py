@@ -274,9 +274,7 @@ def generate_chart(
         pad=12
     )
 
-    ax.set_xlabel("")
-    ax.set_xticks([])
-    ax.spines["bottom"].set_visible(False)
+    ax.xaxis.set_visible(False)
 
     ax.set_ylabel(
         "Rating"
