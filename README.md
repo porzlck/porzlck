@@ -14,3 +14,6 @@
   <img src="./assets/lc-heatmap.svg" width="49%">
   <img src="./assets/lc-contest.svg" width="49%">
 </p>
+
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)
