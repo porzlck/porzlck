@@ -14,9 +14,9 @@
 
 ## 👨‍💻 About Me
 
-- 💻 Interested in **Algorithms & Competitive Programming**
-- 🚀 Always learning and building
-- 📚 Currently learning **Machine Learning & Deep Learning**
+- 🎓 Mathematics undergraduate
+- 🤖 Exploring **Machine Learning & Deep Learning**
+- 🧠 Interested in **Algorithms, Competitive Programming, and AI**
 
 ---
 
