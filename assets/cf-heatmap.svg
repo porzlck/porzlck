@@ -401,15 +401,15 @@
 <rect x="762" y="132" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2026-09-27: 4 solved</title></rect>
 <rect x="776" y="48" width="11" height="11" rx="2" ry="2" fill="#9be9a8"><title>2026-09-28: 1 solved</title></rect>
 <rect x="776" y="62" width="11" height="11" rx="2" ry="2" class="empty"><title>2026-09-29: 0 solved</title></rect>
-<rect x="776" y="76" width="11" height="11" rx="2" ry="2" fill="#9be9a8"><title>2026-09-30: 1 solved</title></rect>
+<rect x="776" y="76" width="11" height="11" rx="2" ry="2" fill="#40c463"><title>2026-09-30: 2 solved</title></rect>
 <rect x="776" y="90" width="11" height="11" rx="2" ry="2" class="empty"><title>2026-10-01: 0 solved</title></rect>
 <rect x="776" y="104" width="11" height="11" rx="2" ry="2" class="empty"><title>2026-10-02: 0 solved</title></rect>
 <rect x="776" y="118" width="11" height="11" rx="2" ry="2" class="empty"><title>2026-10-03: 0 solved</title></rect>
 <rect x="776" y="132" width="11" height="11" rx="2" ry="2" class="empty"><title>2026-10-04: 0 solved</title></rect>
-<text x="48" y="181" class="text" font-size="22">1387</text><text x="48" y="198" class="muted" font-size="11">problems solved all time</text>
-<text x="308" y="181" class="text" font-size="22">1360</text><text x="308" y="198" class="muted" font-size="11">solved in last 365 days</text>
-<text x="558" y="181" class="text" font-size="22">39</text><text x="558" y="198" class="muted" font-size="11">solved in last 30 days</text>
+<text x="48" y="181" class="text" font-size="22">1388</text><text x="48" y="198" class="muted" font-size="11">problems solved all time</text>
+<text x="308" y="181" class="text" font-size="22">1361</text><text x="308" y="198" class="muted" font-size="11">solved in last 365 days</text>
+<text x="558" y="181" class="text" font-size="22">36</text><text x="558" y="198" class="muted" font-size="11">solved in last 30 days</text>
 <text x="48" y="233" class="text" font-size="18">134 days</text><text x="48" y="249" class="muted" font-size="11">max streak</text>
 <text x="308" y="233" class="text" font-size="18">134 days</text><text x="308" y="249" class="muted" font-size="11">max streak / last year</text>
-<text x="558" y="233" class="text" font-size="18">3 days</text><text x="558" y="249" class="muted" font-size="11">max streak / last month</text>
+<text x="558" y="233" class="text" font-size="18">2 days</text><text x="558" y="249" class="muted" font-size="11">max streak / last month</text>
 </svg>
